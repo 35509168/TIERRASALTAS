@@ -2,244 +2,102 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda de Whisky Premium</title>
+  <title>Whisky Premium</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
       background-color: #111;
-      color: #f5f5f5;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
     }
     header {
-      background-color: #1c1c1c;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 2px solid #a97c50;
+      padding: 30px;
+      background-color: #000;
     }
-    header h1 {
+    h1 {
+      color: gold;
       margin: 0;
-      color: #a97c50;
     }
     .productos {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      padding: 40px 20px;
+      flex-wrap: wrap;
       gap: 30px;
+      padding: 40px;
     }
-    .producto {
-      background-color: #1f1f1f;
-      border: 1px solid #333;
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      width: 250px;
       border-radius: 12px;
-      width: 280px;
-      padding: 20px;
-      text-align: center;
+      border: 1px solid #333;
     }
-    .producto img {
+    .card img {
       max-width: 100%;
-      border-radius: 8px;
+      border-radius: 10px;
     }
-    .producto h2 {
-      font-size: 20px;
-      margin: 15px 0 10px;
-    }
-    .producto p {
-      font-size: 16px;
-      color: #ccc;
-    }
-    .precio {
-      color: #a97c50;
-      font-weight: bold;
-      font-size: 18px;
-      margin: 10px 0;
-    }
-    .boton {
-      background-color: #a97c50;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      color: #fff;
-      cursor: pointer;
-    }
-    .boton:hover {
-      background-color: #91643e;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>TIERRAS ALTAS</h1>
-    <p>Tu tienda online de whiskies premium</p>
-  </header>
-
-  <section class="productos">
-
-    <div class="producto">
-     <img src="monkey_shoulder.JPG" alt="Whisky Monkey Shoulder" style="width: 100%; border-radius: 10px;">
-      <h2>Monkey Shoulder</h2>
-      <p>Blended malt escocés, suave y versátil. Ideal para tragos o solo.</p>
-      <div class="precio">$2900</div>
-      <button class="boton">Comprar</button>
-
- <div class="producto">
-      <img src="johnnie_walker_blacklabel.jpg" alt="Johnnie Walker Black Label">
-      <h2>Johnnie Walker Black Label</h2>
-      <p>Whisky escocés blended de 12 años. Ahumado, equilibrado y elegante.</p>
-      <div class="precio">$1690</div>
-      <button class="boton">Comprar</button>
-    </div>
-
-    <div class="producto">
-      <img src="johnnie_blue_label.jpg" alt="Johnnie Walker Blue Label">
-      <h2>Johnnie Walker Blue Label</h2>
-      <p>Mezcla ultra premium con sabores suaves, profundos y excepcionales.</p>
-      <div class="precio">$12900</div>
-      <button class="boton">Comprar</button>
-    </div>
-  </section>
-</body>
-</html>
-    </div>
-  </section>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Whisky Select</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #000;
-      color: #fff;
-    }
-    header {
-      background-color: #111;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #333;
-    }
-    nav a {
-      margin-left: 20px;
-      text-decoration: none;
-      color: #ccc;
-    }
-    nav a:hover {
+    .card h3 {
+      margin-top: 10px;
       color: gold;
     }
-    .banner {
-      background-image: url('https://images.unsplash.com/photo-1583740438449-414b5d9d0376');
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .banner-content {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 30px;
-      border-radius: 15px;
-    }
-    .banner-content h2 {
-      font-size: 32px;
-      margin-bottom: 15px;
-    }
     .btn {
+      margin-top: 15px;
       background-color: gold;
       color: black;
-      padding: 10px 20px;
       border: none;
-      border-radius: 8px;
+      padding: 10px 15px;
+      border-radius: 6px;
       cursor: pointer;
     }
     .btn:hover {
       background-color: goldenrod;
     }
-    .section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .product-card {
-      background-color: #1a1a1a;
-      border-radius: 10px;
-      width: 250px;
-      padding: 20px;
-    }
-    .product-card img {
-      max-width: 100%;
-      border-radius: 10px;
-    }
-    .footer {
-      text-align: center;
-      padding: 20px;
-      border-top: 1px solid #333;
-      color: #777;
-    }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Whisky Select</h1>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Productos</a>
-      <a href="#">Nosotros</a>
-      <a href="#">Contacto</a>
-    </nav>
+    <h1>Whisky Premium</h1>
+    <p>Seleccionamos lo mejor para vos</p>
   </header>
 
-        </div>
-      <!-- Podés duplicar este bloque para agregar más productos -->
+  <div class="productos">
+    <div class="card">
+      <img src="monkey_shoulder.jpg" alt="Monkey Shoulder">
+      <h3>Monkey Shoulder</h3>
+      <p>Blended Malt Scotch Whisky</p>
+      <p>USD 39</p>
+      <button class="btn">Comprar</button>
     </div>
-  </section>
 
-  <section class="section" style="background-color: #111;">
-    <h3 style="font-size: 28px;">Sobre nosotros</h3>
-    <p style="max-width: 600px; margin: auto; color: #ccc;">
-      Somos una tienda especializada en la venta de licores premium. Seleccionamos cuidadosamente cada producto para ofrecerte calidad, sabor y distinción.
-    </p>
-  </section>
+    <div class="card">
+      <img src="johnnie_walker_blacklabel.jpg" alt="Johnnie Walker Black Label">
+      <h3>Johnnie Walker Black</h3>
+      <p>12 años – Scotch Whisky</p>
+      <p>USD 45</p>
+      <button class="btn">Comprar</button>
+    </div>
 
-  <footer class="footer">
-    © 2025 Whisky Select. Todos los derechos reservados.
-  </footer>
+    <div class="card">
+      <img src="chivas_regal.jpg" alt="Chivas Regal">
+      <h3>Chivas Regal 12</h3>
+      <p>Blended Scotch Whisky</p>
+      <p>USD 42</p>
+      <button class="btn">Comprar</button>
+    </div>
 
-<a href="https://wa.me/59895575927" target="_blank" style="
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" style="width: 50px; height: 50px;">
-</a>
+    <div class="card">
+      <img src="johnnie_walker_bluelabel.jpg" alt="Johnnie Walker Blue Label">
+      <h3>Johnnie Walker Blue</h3>
+      <p>Blended Scotch – Edición premium</p>
+      <p>USD 180</p>
+      <button class="btn">Comprar</button>
+    </div>
+  </div>
 
+</body>
 </html>
-
-<section class="section">
-  <h3 style="font-size: 28px;">Contacto</h3>
-  <p style="max-width: 600px; margin: auto; color: #ccc;">
-    ¿Tenés alguna consulta o querés hacer un pedido personalizado? Estamos disponibles por WhatsApp para ayudarte.
-  </p>
-  <br>
-  <a href="https://wa.me/59895575927" target="_blank">
-    <button class="btn">Escribinos por WhatsApp</button>
-  </a>
-</section>
 
 
 
